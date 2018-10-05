@@ -1,0 +1,321 @@
+body {
+    background: whitesmoke;
+}
+
+footer{
+    text-align:center;
+    margin-top: 30px;
+    bottom:0;
+}
+
+.slideimg{
+    height: 100%;
+    width: 100%;
+}
+
+.slick-arrow{
+    color:red;
+}
+
+
+.mySlides{
+    width: 100%;
+    height: 500px;
+}
+
+.slider {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    background-color: rgba(255, 255, 255, 0.864);
+}
+
+.searchMovie {
+    text-align: center;
+    font-size: 23px;
+    padding: 1rem;
+    font-family: Oswald;
+}
+
+.searchMovie input {
+    border-radius: 25px;
+    width: 30%;
+}
+
+.titleBar {
+    background: rgb(238, 238, 224);
+    margin: 0 auto;
+    border: 1px solid rgb(206, 206, 194);
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.movie-deck .card {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    margin: .5rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.864);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16), 0 2px 3px rgba(0, 0, 0, 0.23);
+}
+
+.movie-deck .card:hover {
+    transform:scale(1.3);
+    background: rgb(228, 228, 157);
+    box-shadow:2px 2px 2px #000;
+    z-index: 2;
+
+}
+
+.movie-deck .card .card-body {
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    background: rgba(15, 13, 9, 0.884);   
+    color: white; 
+}
+
+.movie-deck {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.modal-backdrop {
+    opacity: .7;
+}
+
+
+.moviePage Button {
+    margin: 1rem;
+    text-align: left;
+}
+
+.moviePage .wrapper {
+    font-family: "Bebas", "Arial Narrow", "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #afab97;
+    color: #fff;
+    margin: 1px -20px 1em;
+    padding: .3em .5em 0.2em;
+}
+
+.moviePage .info {
+    font-family: "Bebas", "Arial Narrow", "Helvetica Neue", Helmet, Freesans, sans-serif;
+    text-align: center;
+    padding: 1em;
+    color: rgb(32, 23, 23);
+}
+
+.moviePage .overview {
+    font-family: "Bebas", "Arial Narrow", "Helvetica Neue", Helmet, Freesans, sans-serif;
+    color: rgb(32, 23, 23);
+    text-align: center;
+}
+
+.moviePage .info img {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16), 0 2px 3px rgba(0, 0, 0, 0.23);
+}
+
+.basketB button {
+    background-color: #504646;
+    color: white;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:50px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s
+
+    
+}
+
+@media only screen and (min-width: 770px) {
+    .moviePage .info img{
+        float:left;
+    }
+}
+
+.carousel-item img{
+    width: 100%; 
+    height: auto; 
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 27px;
+    position: absolute;
+    padding: 10px;
+    background: rgba(133, 132, 129, 0.884);   
+    color: rgb(253, 253, 253); 
+}
+
+.slick-prev:before, .slick-next:before {
+    color: grey;
+    font-size: 32px;
+}
+
+.fa {
+    font-size: 26px;
+}
+
+.buttons {
+    text-align: center;
+    
+}
+
+.handle {
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(201, 78, 109);
+}
+
+.rating {
+    float: right;
+    color: rgb(197, 195, 56);
+}
+
+.likes {
+    color: rgb(117, 202, 78);
+    float:left;
+}
+
+.signUp h1, .form-group {
+    font-family: Oswald;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #757474;
+    font-weight: bold;
+    display: block;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.signUp .form-group {
+    font-size:18px;
+    text-align: left;
+}
+
+.signUp button {
+    background-color: #757474;
+    color: white;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s
+}
+
+.signUp .form-group .button {
+    text-align: center;
+}
+
+.carouselCard {
+    font-family: Oswald;
+    font-size: 8px;
+    line-height: 1.5;
+    color: #665e5e;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.carouselCard .card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.empty-basket-msg {
+    padding: 3rem;  
+}
+
+.empty-basket-msg img {
+    margin: 4rem;
+}
+
+@media only screen and (min-width: 750px) {
+    .carouselCard {
+        font-size: 15px;
+    }  
+    .carouselCard .card-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .carouselCard {
+        font-size: 17px;
+    }  
+    .carouselCard .card-title {
+        font-size: 22px;
+    }
+}
+
+.slick-slider .card {
+    width: 50%;
+    text-align:center;
+    left: 25%;
+
+}
+
+.slick-slider {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+}
+
+.modal-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-header .modal-title,  {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-content .btn-primary {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-content .modal-title {
+    margin-left:auto;
+    margin-right:auto;
+    color:red;
+}
+
+.carouselCard .card-body {
+    min-height: 300px;
+}
+
+.carouselCard .card {
+    position: unset;
+    margin-left: auto;
+    margin-right: auto;
+}
